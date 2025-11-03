@@ -16,7 +16,7 @@ body{
 /* top banner style */
 
 .top-banner{
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png);
    background-repeat: no-repeat;
    
     background-size: 100%;

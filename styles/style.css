@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.work-sans-uniquifier {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common style */
+.section-banner{
+    width: auto;
+    height: 800px;
+    
+}
+
+/* top banner style */
+
+.top-banner{
+    background-image: url(/images/banner/banner1.png);
+   background-repeat: no-repeat;
+   
+    background-size: 100%;
+    
+    
+}
+
+.top-banner-section{
+    text-align: right;
+    padding: 100px 100px;
+    
+    
+    
+    
+}
+.top-banner-section h1{
+    
+    font-size: 65px;
+        
+}
+.top-bannner-btn{
+    
+    width: 160px;
+    height: 65px;
+    font-size: 20px;
+    border:  none ;
+    color: white;
+    background-color: rgba(241, 91, 34, 1);
+    border-radius: 5px;
+}
+
+
+/* top banner style */
+
+
+/* second-banner */
+.second-banner{
+    display: flex;
+    max-width: 1800px;
+    padding: 0px 100px;
+    align-items: center;
+    gap: 80px;
+    
+}
+.second-banner-article li::marker{
+    color: green;
+    content: '☑ ';
+}
+.second-banner h2{
+    font-size: 60px;
+}
+
+
+/* my plan item style */
+.my-plan-section-title{
+    font-size: 40px;
+}
+.my-plan-items{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-around;
+}
+
+.my-plan-section{
+    text-align: center;
+
+
+
+}
+
+/* mindset-section style */
+.mindset-section{
+    
+    background-image: url(../images/gradient2.png), url(../images/watch.png )  ;
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 100px 100px 0px 100px;
+
+
+}
+
+.mindset-section-items{
+    padding: 40px;
+}
+
+.mindset-section-items h2{
+    font-size: 40px ;
+    color: white;
+}
+.mindset-section-btn{
+     width: 160px;
+    height: 65px;
+    font-size: 20px;
+    border:  none ;
+    color: rgba(241, 91, 34, 1);
+    background-color: white ;
+    border-radius: 5px;
+}
+
+/* footer style */
+
+footer{
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 500px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.footer div{
+    
+    width: 400px;
+    
+}
+
+.Subscribe{
+    text-align: left;
+
+}
+.Subscribe input{
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    padding: 20px 50px 20px 20px;
+    border-radius: 8px;
+    border-color:white;
+    background-color: black;
+}
+
+
+.footer-left img{
+    margin-right: 20px;
+}
+
+.footer-left h2{
+    font-size: 45px;
+}
+.foot{
+    margin-top: 100px;
+}
+
